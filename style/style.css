@@ -28,7 +28,7 @@ header a{
     text-decoration: none;
     color: black;
 }
-
+/* main properties */
 main{
     background-color: #f6f8f9;
 }
@@ -38,7 +38,7 @@ main{
     width: 60%;
     background-color: white;
 }
-
+/* top part of the container */
 .container.top{
     border-bottom: 2px solid #f6f8f9;
     border-top-left-radius: 10px;
@@ -61,17 +61,22 @@ main{
     background-color: white;
     color: grey;
 }
+/* end container top */
 
-
+/* bottom part of the container */
 .container.bottom{
     padding: 10px 30px;
 }
 
+
+/* new-tasks */
 .new-tasks h4{
     margin-bottom: 10px;
     font-weight: bolder;
 }
 
+
+/* check-marks properties */
 .state{
     display: inline-block;
     height: 25px;
@@ -91,7 +96,10 @@ main{
 .state.to-do{
     border: 2px solid #ed584f;
 }
+/* end check-marks */
 
+
+/* badges properties */
 .badge{
     display: inline-block;
     font-size: 12px;
@@ -103,3 +111,24 @@ main{
 .badge.editorial{
     background-color: #45abe9;
 }
+
+.badge.q1goals{
+    background-color: #9c72e4;
+}
+
+.badge.recruiting{
+    background-color: #62c0a8;
+}
+
+.badge.mobile{
+    background-color: #f29e33;
+}
+
+.badge.website{
+    background-color: #d763a1;
+}
+
+.badge.sales{
+    background-color: #b0c925;
+}
+/* end badge properties */

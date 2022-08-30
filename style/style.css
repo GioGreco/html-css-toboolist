@@ -7,10 +7,14 @@
 
 html{
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
-
 /* header properties */
+header{
+    border-bottom: 40px solid #F6F8FA;
+}
+
 header img{
     width: 100px;
 }
@@ -23,4 +27,79 @@ header h1{
 header a{
     text-decoration: none;
     color: black;
+}
+
+main{
+    background-color: #f6f8f9;
+}
+
+.container{
+    margin: auto;
+    width: 60%;
+    background-color: white;
+}
+
+.container.top{
+    border-bottom: 2px solid #f6f8f9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 30px;
+}
+
+.task{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.task.add{
+    background-color: #46adf1;
+    color: white;
+}
+
+.task.new{
+    background-color: white;
+    color: grey;
+}
+
+
+.container.bottom{
+    padding: 10px 30px;
+}
+
+.new-tasks h4{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.state{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #66c1aa;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.state.check{
+    border: 2px solid #66c1aa;
+}
+
+.state.to-do{
+    border: 2px solid #ed584f;
+}
+
+.badge{
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.badge.editorial{
+    background-color: #45abe9;
 }

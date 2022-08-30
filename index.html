@@ -6,12 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- header (to be fixed) -->
     <header>
         <h1><a href="index.html"><img src="./img/Logo.png" alt="Toboolist logo">Toboolist</a></h1>
     </header>
+
+    <main>
+        <div class="container top">
+                <button class="task add">Add Task</button>
+                <button class="task new">Add Section</button>
+        </div>
+        <div class="container bottom">
+            <section class="new-tasks">
+                <h4>&#9662; New Task</h4>
+                <span><span class="state check">&#10003;</span>Quarterly Newsletter</span>
+                <span class="badge editorial">Editorial</span>
+            </section>
+            <section class="today-tasks"></section>
+            <section class="upcoming-tasks"></section>
+        </div>
+    </main>
     
 </body>
 </html>

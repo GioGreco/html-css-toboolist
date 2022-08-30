@@ -8,11 +8,13 @@
 html{
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
 }
 
 /* header properties */
 header{
     border-bottom: 40px solid #F6F8FA;
+    background-color: white;
 }
 
 header img{
@@ -31,9 +33,6 @@ header a{
     color: black;
 }
 /* main properties */
-main{
-    background-color: #f6f8f9;
-}
 
 .container{
     margin: auto;

@@ -1,0 +1,26 @@
+/* generale properties */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 25px;
+}
+
+
+/* header properties */
+header img{
+    width: 100px;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 3em;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
